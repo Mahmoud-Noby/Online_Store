@@ -1,0 +1,237 @@
+/* 
+    First-Color  : #007DEA;
+    Seconed-Color: #003666;
+
+*/
+
+body{
+    background-color: #fafafa;
+}
+/*--------------------------------------------------------------------------------------------------------
+                                * Upper NAV * 
+--------------------------------------------------------------------------------------------------------*/
+.upper-navigator{
+    background-color:  rgba(0, 131, 207, 0.794); 
+}
+
+.upper-nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.upper-nav .fas{
+    color: #fff;
+}
+.upper-nav li{
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #fff;
+    padding: 7px;
+}
+.ul-2 .upper-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.ul-2 .upper-nav li{
+    cursor: pointer;
+
+}
+.ul-2 .upper-nav img{
+    max-width: 20px;
+    max-height: 15px;
+    margin-left: 5px;
+}
+@media(max-width: 575.98px),(max-width: 767.98px) {
+    .upper-nav .first-ul{
+        display: none;
+    }
+    .ul-2 .upper-nav{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------
+                                * MAIN NAVBAR * 
+--------------------------------------------------------------------------------------------------------*/
+.bg-light {
+    background-color: #fff!important;
+}
+.navbar-light .navbar-brand{
+    font-weight: bold;
+    padding: 13px;
+    font-size: 1.9rem;
+    line-height: 30px;
+}
+nav .form-inline .form-control{
+    width: 600px;
+    height: 40px;
+    outline: 0;
+    box-shadow: none!important;
+}
+nav .form-inline .btn{
+    outline: 0;
+    box-shadow: none !important;
+    background-color:rgba(0, 131, 207, 0.794); 
+    border-color: rgba(0, 131, 207, 0.794); 
+}
+nav .form-inline .btn:hover{
+    background-color:rgb(4, 120, 187); 
+    border-color: rgb(4, 120, 187); 
+}
+@media(max-width: 575.98px),(max-width: 767.98px) {
+    nav .form-inline .form-control{
+        max-width: 425px !important;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------
+                                * Site Map Navbar * 
+--------------------------------------------------------------------------------------------------------*/
+.bg-dark{
+    background-color: #fff !important;
+    border-top: 1px rgb(173, 173, 173) dotted;
+    border-bottom: 1px rgb(173, 173, 173) dotted;
+    margin-bottom: 15px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgba(0, 131, 207, 0.794); 
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:  rgb(4, 120, 187)  !important;
+}
+
+/*--------------------------------------------------------------------------------------------------------
+                                * Header Carosul  * 
+--------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------
+                                * MOST RECOMMENDED SECTION * 
+--------------------------------------------------------------------------------------------------------*/
+.recommended{
+    padding: 30px 0;
+}
+.recommended .col{
+    padding-right:  0;
+    padding-left: 0;
+    margin-bottom: 20px;
+} 
+.recommended .card-body{
+    padding: 1rem;
+}
+.recommended .card-text{
+    font-size: 11px;
+}
+.recommended h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgba(0, 131, 207, 0.794); 
+}
+.recommended h5{
+    font-size: 19px;
+    font-weight: 400;
+}
+.recommended .deleted{
+    font-size: 14px;
+    color: rgb(168, 168, 168);
+
+}
+.recommended h6{
+    color:rgba(0, 131, 207, 0.794); 
+}
+.recommended span{
+    font-size: 12px;
+    margin-right: 20px;
+}
+.recommended .product-review .fas{
+    font-size: 15px;
+    color: rgba(0, 131, 207, 0.794);
+}
+
+.section_2{
+    padding-top:0; 
+}
+
+
+/*--------------------------------------------------------------------------------------------------------
+                                * FOOTER SECTION * 
+--------------------------------------------------------------------------------------------------------*/
+.upper-footer{
+    padding: 50px 40px;
+    background-color: #f2f2f2
+}
+
+.upper-footer h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #616161;
+    font-size: 15px;
+}
+
+.upper-footer ul li {
+    color: #616161;
+    font-family: "Montserrat",sans-serif;
+    padding: 7px 0;
+    font-size: 11px;
+}
+.upper-footer ul li a{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #616161;
+    font-size: 11px;
+    text-decoration-line:none;
+    -moz-text-decoration-line:none;
+}
+.upper-footer .fab{
+    padding: 10px 5px;
+}
+.upper-footer .fa-twitter {
+    color: #55abef;
+}
+.upper-footer .fa-facebook{
+    color: #45629e;
+}
+.upper-footer .fa-instagram{
+    color:#db4437 ;
+}
+.upper-footer .fa-linkedin{
+    color: #0076b6;
+}
+.upper-footer .fa-google-plus{
+    color:#db4437;
+}
+
+/***** -----------------------------------------------
+                DOWN-FOOTER  
+----------------------------------------------------*/
+
+
+.lower-footer{
+    padding: 20px 0 ;
+    background-color: #dddddd;
+    color: #616161;
+}
+.contact-info{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-info ul li{
+    display: inline;
+    padding: 0 7px ;
+}
+.contact-info ul li a{
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #616161;
+}
+.footer-lang a{
+    justify-content: flex-end;
+    font-size: 13px;
+    color: #616161;
+}

@@ -1,0 +1,33 @@
+
+.product-item {
+    margin-top: 35px ;
+    margin-bottom: 35px;
+}
+
+.product-item .fas {
+    font-size: 15px;
+    color: rgba(0, 131, 207, 0.794);
+    margin-bottom: 9px;
+}
+.product-item .deleted {
+    font-size: 14px;
+    color: rgb(168, 168, 168);
+}
+.product-item h3 {
+    text-transform: uppercase;
+}
+.product-item h6 {
+    color: rgba(0, 131, 207, 0.794);
+}
+.product-item span {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.product-item .page-item:last-child .page-link{
+    margin-right: 20px;
+}
+.product-description .tab-content{
+    padding: 10px;
+    border: 1px solid #eee;
+}
